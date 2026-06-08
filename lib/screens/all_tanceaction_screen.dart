@@ -99,6 +99,16 @@ class _TransactionsScreenState extends State<TransactionsScreen> {
       amount: -20.00,
       type: 'expense',
     ),
+    TransactionItem(
+      icon: Icons.local_cafe_outlined,
+      iconBg: const Color(0xFFFFF3E0),
+      iconColor: const Color(0xFFFF8C00),
+      title: 'Coffee',
+      time: 'Mar 18',
+      dateGroup: 'April 24, 2024',
+      amount: -5.00,
+      type: 'expense',
+    ),
   ];
 
   List<TransactionItem> get _filtered {

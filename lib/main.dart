@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
         '/homepage' : (context) => HomeScreen(),
         '/Transaction' : (context) => HomeScreen(),
         '/all_transaction' : (context) => TransactionsScreen(),
+        '/add_transaction' : (context) => AddTransactionScreen(),
 
       },
       initialRoute: '/homepage',
